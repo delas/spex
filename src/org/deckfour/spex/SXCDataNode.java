@@ -3,8 +3,6 @@ package org.deckfour.spex;
 import java.io.IOException;
 import java.io.Writer;
 
-import org.deckfour.spex.util.SXmlCharacterMethods;
-
 /**
  * Bogus wrapper class for CDATA nodes.
  * 
@@ -26,7 +24,7 @@ public class SXCDataNode extends SXNode {
 		indentLine();
 		writer.write("<![CDATA[");
 		writer.write("\n");
-		writer.write(SXmlCharacterMethods.convertCharsToXml(text));
+		writer.write(text);
 		writer.write("\n");
 		indentLine();
 		writer.write("]]>");
