@@ -24,9 +24,9 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>github</id>
-			<name>delas</name>
-			<url>https://maven.pkg.github.com/delas/spex</url>
+			<id>bintray-delas-org.deckfour</id>
+			<name>delas-org.deckfour</name>
+			<url>https://api.bintray.com/maven/delas/org.deckfour/spex/;publish=1</url>
 		</repository>
 	</distributionManagement>
 </project>
